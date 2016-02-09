@@ -1,0 +1,42 @@
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,7db9e8+100 */
+html
+{
+	background: url(../img/mountains.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 100%;
+
+}
+
+#loginBox
+{
+	background-color: rgba(255,255,255,0.4);
+	position:absolute;
+	left:39%;
+	top:25%;
+	width:22%;
+	height:35%;
+	border-radius: 10px;
+}
+
+#superfightLogo
+{
+	height:15%;
+	width:100%;
+}
+
+.text-center
+{
+	color:black;
+}
+
+h2{
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+}
