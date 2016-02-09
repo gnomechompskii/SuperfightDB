@@ -21,6 +21,48 @@ html
 	border-radius: 10px;
 }
 
+@media (max-width: 640px) { 
+	body 
+	{
+		font-size:1.2rem;
+	} 
+	#loginBox
+	{
+		height: 40%;
+	}
+} 
+@media (min-width: 640px) { 
+	body 
+	{
+		font-size:0.4rem;
+	} 
+} 
+@media (min-width:960px) { 
+	body 
+	{
+		font-size:0.6rem;
+	} 
+} 
+@media (min-width:1100px) { 
+	body
+	{
+		font-size:0.8rem;
+	} 
+}
+@media (max-height:768px) { 
+	#loginBox
+	{
+		height: 40%;
+		left:35%;
+	}
+}
+@media (max-width: 1024px) { 
+	#loginBox
+	{
+		width:30%;
+	}
+} 
+
 #superfightLogo
 {
 	height:15%;
