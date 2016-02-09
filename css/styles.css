@@ -40,3 +40,17 @@ h2{
      -o-hyphens: auto;
      hyphens: auto;
 }
+
+a
+{
+	color:black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;	
+	position: absolute;
+	left:63%;
+}
+button
+{
+	position: absolute;
+	bottom:50%;
+}
