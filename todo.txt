@@ -1,0 +1,10 @@
+TODO:
+
+Add card page
+Edit card page
+Delete card page
+View all cards
+	-View all white
+	-View all black
+
+
