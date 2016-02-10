@@ -1,2 +1,0 @@
-USERNAME = devsitee_topdog
-PASSWORD = root@fcarella
