@@ -1,0 +1,88 @@
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,7db9e8+100 */
+html
+{
+	background: url(../img/mountains.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 100%;
+
+}
+
+#displayBox
+{
+	background-color: rgba(255,255,255,0.4);
+	position:absolute;
+	left:15%;
+	top:15%;
+	width:70%;
+	height:80%;
+	border-radius: 10px;
+}
+
+h1
+{
+	position: absolute;
+	top:1%;
+	left:43%;
+	color:black;
+}
+
+#cardType
+{
+	position: absolute;
+	top:10%;
+	left:43%;
+}
+
+#cardValue
+{
+	position: absolute;
+	top:25%;
+	left:43%;
+}
+#cType
+{
+	position: absolute;
+	left:-40%;
+}
+#cText
+{
+	position: absolute;
+	left:-11%;
+}
+
+#preview
+{
+	background-color: white;
+	position:absolute;
+	left:39%;
+	top:40%;
+	height:350px;
+	width:250px;
+	border-radius: 10px;
+	z-index: 15;
+}
+
+#buttonClass
+{
+	position: absolute;
+	bottom:3%;
+	left:43%;
+}
+#cPreview
+{
+	position: absolute;
+	left:30%;
+	bottom:50%;
+}
+#previewTxt
+{
+	border-style: none;
+	position: absolute;
+	left:3%;
+	top:3%;
+	-webkit-appearance:none;
+	resize:none;
+}
