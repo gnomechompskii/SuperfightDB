@@ -18,6 +18,22 @@ session_start();
           exit();
         }
 
+        if(isset($_POST["type"]) && isset($_POST["cardVal"]))
+        {
+            $insertCard = mysql_query("INSERT INTO card (cardValue, cardType, dateSubmitted)
+                                      Values('$_POST[cardVal]', '$_POST[type]', CURRENT_TIMESTAMP)");
+        
+            if(!$insertCard)
+            {
+                echo("Couldnt add card...");
+                echo("<p>Error performing query: " . mysql_error() . "</p>");
+            }
+            else
+            {
+                echo("Card has been added");
+            }
+        }
+
                 
 ?>
 <html lang="en" ng-app>
@@ -66,7 +82,7 @@ session_start();
     <body >
       <div class="container" id="displayBox">
             <h1>Add Card</h1>
-            <form class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST" ng-init="card={value:''}">
+            <form class="form-horizontal" action="addCard.php" method="POST" ng-init="card={value:''}">
                 <div class="form-group" id="cardType" name="cardType">
                 <div class="col-sm-12">
                     <h5 id="cType"><strong>Card Type: </strong></h5>
